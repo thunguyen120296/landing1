@@ -63,6 +63,8 @@ p{
 .banner__left{
     position: absolute;
     left: 5%;
+    top: 0%;
+    transform: translate(-5%, 0%);
 }
 .banner__left h1{
     font-size: 5rem;
@@ -81,11 +83,12 @@ p{
 .banner__right{
     position: absolute;
     right: 0px;
-    top: 0;
+    top: 0%;
     border: 1px solid var(--text-color);
     padding: 8px 24px;
     text-transform: uppercase;
     border-right: none;
+    transform: translate(0, 0%);
 }
 
 .slider{
@@ -100,6 +103,8 @@ p{
 }
 .slider__left{
     position: relative;
+    left: 15%;
+    transform: translate(-15%);
 }
 .slider__left h6::before{
     content: '';
